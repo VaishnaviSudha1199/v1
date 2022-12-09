@@ -1,0 +1,111 @@
+{
+    "@type": "mtTask",
+    "orgId": "0100ON",
+    "name": "MappingTask620",
+    "description": "",
+    "createTime": "2018-04-25T10:38:42.000Z",
+    "updateTime": "2018-04-25T13:07:55.000Z",
+    "createdBy": "vcsum@informatica.com",
+    "updatedBy": "krishnakmr173210@gmail.com",
+    "agentId": "0100ON08000000000007",
+    "runtimeEnvironmentId": "0100ON25000000000009",
+    "maxLogs": 10,
+    "verbose": false,
+    "lastRunTime": 1527771176000,
+    "mappingId": "0100ON17000000000015",
+    "shortDescription": "",
+    "sessionProperties": {},
+    "enableCrossSchemaPushdown": true,
+    "parameters": [
+        {
+            "@type": "mtTaskParameter",
+            "id": 322542,
+            "name": "$Source$",
+            "type": "H_SOURCE",
+            "label": "Source",
+            "uiProperties": {
+                "connectionParameterized": "false",
+                "objectParameterized": "false",
+                "visible": "false"
+            },
+            "sourceConnectionId": "0100ON0B00000000001K",
+            "sourceObject": "Spchar",
+            "newFlatFile": false,
+            "newObject": false,
+            "showBusinessNames": false,
+            "naturalOrder": true,
+            "truncateTarget": false,
+            "bulkApiDBTarget": false,
+            "customFuncCfg": {
+                "@type": "customFuncConfig",
+                "id": -1,
+                "connections": [],
+                "inputMap": [],
+                "outputFields": []
+            },
+            "tgtFieldRefs": {},
+            "targetUpdateColumns": [],
+            "runtimeAttrs": {},
+            "isRESTModernSource": true,
+            "requestXml": "{\n  \"q\" : \"addClass+user:mozilla\"\n}",
+            "isFileList": false,
+            "handleSpecialChars": false,
+            "tgtObjectAttributes": {},
+            "overriddenFields": []
+        },
+        {
+            "@type": "mtTaskParameter",
+            "id": 322543,
+            "name": "$Target$",
+            "type": "TARGET",
+            "label": "Target",
+            "uiProperties": {
+                "connectionParameterized": "false",
+                "objectParameterized": "false",
+                "visible": "false",
+                "defaultTargetUpdateColumns": ""
+            },
+            "targetConnectionId": "0100ON0B000000000002",
+            "targetObject": "spchar.csv",
+            "targetObjectLabel": "spchar.csv",
+            "newFlatFile": false,
+            "newObject": true,
+            "showBusinessNames": false,
+            "naturalOrder": true,
+            "newObjectName": "spchar.csv",
+            "truncateTarget": false,
+            "bulkApiDBTarget": false,
+            "operationType": "Insert",
+            "tgtFFAttrs": {
+                "@type": "flatFileAttrs",
+                "id": 80398,
+                "delimiter": ",",
+                "textQualifier": "\"",
+                "escapeChar": "",
+                "headerLineNo": 1
+            },
+            "customFuncCfg": {
+                "@type": "customFuncConfig",
+                "id": -1,
+                "connections": [],
+                "inputMap": [],
+                "outputFields": []
+            },
+            "tgtFieldRefs": {},
+            "targetUpdateColumns": [],
+            "extendedObject": {
+                "@type": "extendedObject",
+                "filters": [],
+                "sortFields": []
+            },
+            "runtimeAttrs": {},
+            "isRESTModernSource": true,
+            "isFileList": false,
+            "handleSpecialChars": false,
+            "tgtObjectAttributes": {},
+            "overriddenFields": []
+        }
+    ],
+    "sequences": [],
+    "inOutParameters": []
+}
