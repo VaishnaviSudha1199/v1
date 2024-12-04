@@ -1,8 +1,8 @@
 <aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
                    xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
    <types1:Item>
-      <types1:EntryId>MMP5gjn9OQcjoYs-gt-394094-2024-12-04T11:46:36.621Z::tf.xml</types1:EntryId>
-      <types1:Name>tf_git_vs_suborg_1</types1:Name>
+      <types1:EntryId>T8Ji4tciSrZMSPf-gt-389460-2024-12-04T11:40:23.741Z::tf.xml</types1:EntryId>
+      <types1:Name>tf_git_vs_suborg</types1:Name>
       <types1:MimeType>application/xml+taskflow</types1:MimeType>
       <types1:Description/>
       <types1:AppliesTo/>
@@ -11,15 +11,15 @@
       <types1:State>CURRENT</types1:State>
       <types1:ProcessGroup/>
       <types1:CreatedBy>vs_suborg2</types1:CreatedBy>
-      <types1:CreationDate>2024-12-04T11:46:37Z</types1:CreationDate>
+      <types1:CreationDate>2024-12-04T11:40:24Z</types1:CreationDate>
       <types1:ModifiedBy/>
       <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
                    xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
                    xmlns:list="urn:activevos:spi:list:functions"
-                   displayName="tf_git_vs_1"
-                   name="tf_git_vs_suborg_1"
+                   displayName="tf_git_vs"
+                   name="tf_git_vs_suborg"
                    overrideAPIName="true">
             <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
             <appliesTo/>
@@ -129,8 +129,8 @@
             </dependencies>
          </taskflow>
       </types1:Entry>
-      <types1:GUID>6xqoIlqn6DJdoU9QLTuNE4</types1:GUID>
-      <types1:DisplayName>tf_git_vs_1</types1:DisplayName>
+      <types1:GUID>bMg5uLbMJuGgltRVKIv6KO</types1:GUID>
+      <types1:DisplayName>tf_git_vs</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2024-12-04T11:52:54.531Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2024-12-04T11:52:54.557Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
