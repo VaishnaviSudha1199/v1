@@ -24,7 +24,7 @@
                    xmlns:list="urn:activevos:spi:list:functions"
                    displayName="tf_git_vs_1234"
                    name="tf_git_vs_suborg_1234"
-                   overrideAPIName="true">
+                   overrideAPIName="false">
             <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
             <appliesTo/>
             <description/>
