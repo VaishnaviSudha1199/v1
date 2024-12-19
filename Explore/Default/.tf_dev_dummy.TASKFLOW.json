@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "5BJqTRRWCmgiWu4gOhy3uy",
+    "name" : "tf_dev_dummy",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "zUNciZBpDUQbgdw-gt-840038-2024-12-19T20:30:39.409Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-12-19T20:31:19.303Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
