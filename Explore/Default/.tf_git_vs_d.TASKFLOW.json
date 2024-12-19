@@ -20,28 +20,8 @@
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2024-12-19T20:22:01.602Z",
-  "objectRefs" : [ {
-    "id" : "6sjeTq29haLeALHG2LuUc4",
-    "name" : "mt_ff_ff",
-    "type" : "MTT",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01D34T0Z000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
-  } ],
+  "updateTime" : "2024-12-19T20:27:29.214Z",
+  "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
 }
