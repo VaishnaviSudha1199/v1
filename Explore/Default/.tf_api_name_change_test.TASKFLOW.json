@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "22VkQyWrbkGhPygtPpyzYv",
+    "name" : "tf_api_name_change_test",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "qSLlBWlD2pHALVY-gt-489862-2024-12-20T12:24:55.259Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-12-20T12:28:11.096Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
