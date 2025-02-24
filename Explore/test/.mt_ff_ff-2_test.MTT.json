@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "boGs4afDAyGgJDeYp6wxGS",
-    "name" : "mt_ff_ff-2",
+    "name" : "mt_ff_ff-2_test",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-02-24T02:40:49.544Z",
+  "updateTime" : "2025-02-24T02:43:53.497Z",
   "objectRefs" : [ {
     "id" : "0T9b5vlD2WZcqBYl52KkEC",
     "name" : "m_ff_ff2",
