@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "49Rx326hEeXdovQXIRZswD",
+    "id" : "lqWyTjwg7gih9EA5ZJxjy0",
     "name" : "mt_ff_ff",
     "type" : "MTT",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01D14P0Z000000000002"
+        "repoHandle" : "01D34T0Z000000000004"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -17,36 +17,33 @@
       } ],
       "additionalInfo" : {
         "description" : null,
-        "contentType" : "JSON",
+        "contentType" : null,
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-12-04T11:34:23.981Z",
+  "updateTime" : "2025-02-05T07:22:31.260Z",
   "objectRefs" : [ {
-    "id" : "3PKL8vtlDTvkSS8tKelZK4",
-    "name" : "m_ff_ff",
-    "type" : "DTEMPLATE",
+    "id" : "4ktO5neSbVojBqnBW7l10A",
+    "name" : "ff-demo",
+    "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01D14P17000000000002"
+        "repoHandle" : "01D34T0B000000000002"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : null,
         "contentType" : "JSON",
-        "documentState" : "VALID"
+        "documentState" : "COMPLETE"
       }
     },
-    "path" : "/Explore/Default"
+    "path" : "/SYS"
   }, {
     "id" : "1IpGDp5ifqLhZs6xElMnqa",
     "name" : "Vaishnavis Agent group",
@@ -68,25 +65,25 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "ahZ8H9YpckckK9exshyZKY",
-    "name" : "ff-demo",
-    "type" : "Connection",
+    "id" : "0voRVAEfRjVfTERGFIoDog",
+    "name" : "m_ff_ff",
+    "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01D14P0B000000000002"
+        "repoHandle" : "01D34T17000000000004"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
       }
     },
-    "path" : "/SYS"
+    "path" : "/Explore/Default/default_folder"
   } ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
