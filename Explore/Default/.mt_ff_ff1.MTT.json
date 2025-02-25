@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "test_mt_25",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-02-24T02:42:07.588Z",
+  "updateTime" : "2025-02-25T10:41:48.762Z",
   "objectRefs" : [ {
     "id" : "20yja4SeAyNgoB6nqsaMUT",
     "name" : "m_ff_ff",
@@ -36,9 +36,12 @@
       "repoInfo" : {
         "repoHandle" : "01D34T17000000000003"
       },
-      "contextAttributes" : null,
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "test_25",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
