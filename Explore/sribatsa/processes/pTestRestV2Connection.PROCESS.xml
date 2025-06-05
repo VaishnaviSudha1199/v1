@@ -13,10 +13,10 @@
       <types1:CreatedBy>vs_suborg2</types1:CreatedBy>
       <types1:CreationDate>2025-06-05T14:14:07Z</types1:CreationDate>
       <types1:ModifiedBy>vs_suborg2</types1:ModifiedBy>
-      <types1:ModificationDate>2025-06-05T15:38:30Z</types1:ModificationDate>
+      <types1:ModificationDate>2025-06-05T15:45:31Z</types1:ModificationDate>
       <types1:PublicationStatus>published</types1:PublicationStatus>
       <types1:PublishedBy>vs_suborg2</types1:PublishedBy>
-      <types1:PublicationDate>2025-06-05T15:38:44Z</types1:PublicationDate>
+      <types1:PublicationDate>2025-06-05T15:45:34Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/spi.pTestRestV2Connection/pTestRestV2Connection.pd.xml</types1:PublishedContributionId>
       <types1:Entry>
          <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -50,28 +50,28 @@
                   </options>
                </field>
             </output>
-            <notes>dummy.</notes>
+            <notes/>
             <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
                <rest>
                   <allowAnonymousAccess/>
                </rest>
             </deployment>
             <extData>
-               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
-               <nvpair name="treatEmptyStringAsNull">true</nvpair>
                <nvpair name="treatEmptyObjectListAsArray">true</nvpair>
                <nvpair name="treatEmptyObjectListAsNotArray">false</nvpair>
+               <nvpair name="treatEmptyStringAsNull">true</nvpair>
+               <nvpair name="treatEmptyObjectListAsNotArray">false</nvpair>
             </extData>
-            <flow id="hd60a0d93-566b-49ca-b5a1-a09ae76bab96">
-               <start id="ta948038d-d2dc-4b01-a19d-32e9d7b817ab">
-                  <link id="r819b1cbc-25bc-4dc4-a9e5-279582896ca4"
+            <flow id="me5f02b0a-e54e-4e5f-81bc-4b537acccd76">
+               <start id="xb1b330c5-84ef-4e91-84c6-bea71ffa02b0">
+                  <link id="kc3e52e90-cfdd-4587-960a-e64da1c2bf99"
                         targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7g"/>
                </start>
                <service id="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7g">
                   <title>Login</title>
                   <serviceName>apTestRestV2:Login</serviceName>
                   <serviceGUID>4OnMYz8Zy57hSt2MY5vt2n</serviceGUID>
-                  <link id="y8f20bb1e-0b32-4218-9385-6c66208dad34"
+                  <link id="yd68458ee-c228-4ec0-bc09-c5c7ce10cfdb"
                         targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd74"/>
                </service>
                <service id="a1apac3vy31MRf0OLSpaDM2k-lu9tdd74">
@@ -83,7 +83,7 @@
                      <parameter name="icSessionId" source="field">output.ICS Session ID</parameter>
                      <parameter name="connectionId" source="constant">018Z0B0B00000000000N</parameter>
                   </serviceInput>
-                  <link id="v9eeec299-d801-4540-a749-4dc148e9dba9"
+                  <link id="b90c80117-b738-4cca-8eb7-e3c0fe032b55"
                         targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7w"/>
                </service>
                <assignment id="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7w">
@@ -95,7 +95,7 @@
 
 return $connection/UserName</expression>
                   </operation>
-                  <link id="md9a788ea-3fff-44b8-a759-8614e3250cdf"
+                  <link id="la409c23f-8b57-44a2-8dc4-c1be4888b752"
                         targetId="a1apac3vy31MRf0OLSpaDM2k-c"/>
                </assignment>
                <end id="a1apac3vy31MRf0OLSpaDM2k-c">
@@ -118,5 +118,5 @@ return $connection/UserName</expression>
       <types1:GUID>apac3vy31MRf0OLSpaDM2k</types1:GUID>
       <types1:DisplayName>pTestRestV2Connection</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2025-06-05T15:39:30.001Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2025-06-05T15:45:47.798Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
