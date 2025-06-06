@@ -1,35 +1,35 @@
 <aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
                    xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
    <types1:Item>
-      <types1:EntryId>4Cf5GkeHy2uI5CU-gt-12245545-2025-06-05T14:14:07.089Z::pd.xml</types1:EntryId>
+      <types1:EntryId>abck0Kn7wporzYL-gt-12275829-2025-06-05T14:33:47.014Z::pd.xml</types1:EntryId>
       <types1:Name>pTestRestV2Connection</types1:Name>
       <types1:MimeType>application/xml+process</types1:MimeType>
       <types1:Description/>
       <types1:AppliesTo/>
-      <types1:Tags/>
+      <types1:Tags>.anonymous</types1:Tags>
       <types1:VersionLabel>1.0</types1:VersionLabel>
       <types1:State>CURRENT</types1:State>
       <types1:ProcessGroup/>
-      <types1:CreatedBy>vs_suborg2</types1:CreatedBy>
-      <types1:CreationDate>2025-06-05T14:14:07Z</types1:CreationDate>
-      <types1:ModifiedBy>vs_suborg2</types1:ModifiedBy>
-      <types1:ModificationDate>2025-06-05T15:38:30Z</types1:ModificationDate>
+      <types1:CreatedBy>vaishnavi_usw5_new_org</types1:CreatedBy>
+      <types1:CreationDate>2025-06-05T14:33:47Z</types1:CreationDate>
+      <types1:ModifiedBy>vaishnavi_usw5_new_org</types1:ModifiedBy>
+      <types1:ModificationDate>2025-06-06T12:41:36Z</types1:ModificationDate>
       <types1:PublicationStatus>published</types1:PublicationStatus>
-      <types1:PublishedBy>vs_suborg2</types1:PublishedBy>
-      <types1:PublicationDate>2025-06-05T15:38:44Z</types1:PublicationDate>
+      <types1:PublishedBy>vaishnavi_usw5_new_org</types1:PublishedBy>
+      <types1:PublicationDate>2025-06-06T12:41:40Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/spi.pTestRestV2Connection/pTestRestV2Connection.pd.xml</types1:PublishedContributionId>
       <types1:Entry>
          <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
                   xmlns:list="urn:activevos:spi:list:functions"
-                  GUID="apac3vy31MRf0OLSpaDM2k"
+                  GUID="iCUJS5acFK2kYXkT22mvmx"
                   displayName="pTestRestV2Connection"
                   name="pTestRestV2Connection"
                   overrideAPIName="false">
             <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
             <appliesTo/>
             <description/>
-            <tags/>
+            <tags>.anonymous</tags>
             <generator>Informatica Process Designer 11</generator>
             <output>
                <field description="" name="username" type="string">
@@ -50,43 +50,35 @@
                   </options>
                </field>
             </output>
-            <notes>dummy.</notes>
+            <notes/>
             <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
                <rest>
                   <allowAnonymousAccess/>
                </rest>
             </deployment>
-            <extData>
-               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
-               <nvpair name="treatEmptyStringAsNull">true</nvpair>
-               <nvpair name="treatEmptyObjectListAsArray">true</nvpair>
-               <nvpair name="treatEmptyObjectListAsNotArray">false</nvpair>
-            </extData>
-            <flow id="hd60a0d93-566b-49ca-b5a1-a09ae76bab96">
-               <start id="ta948038d-d2dc-4b01-a19d-32e9d7b817ab">
-                  <link id="r819b1cbc-25bc-4dc4-a9e5-279582896ca4"
-                        targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7g"/>
+            <flow id="a">
+               <start id="b">
+                  <link id="lu9tdd7h" targetId="lu9tdd7g"/>
                </start>
-               <service id="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7g">
+               <service id="lu9tdd7g">
                   <title>Login</title>
                   <serviceName>apTestRestV2:Login</serviceName>
-                  <serviceGUID>4OnMYz8Zy57hSt2MY5vt2n</serviceGUID>
-                  <link id="y8f20bb1e-0b32-4218-9385-6c66208dad34"
-                        targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd74"/>
+                  <serviceGUID>dhsK1yLNUssl9vhei7vtYf</serviceGUID>
+                  <serviceInput/>
+                  <link id="lu9tdd7i" targetId="lu9tdd74"/>
                </service>
-               <service id="a1apac3vy31MRf0OLSpaDM2k-lu9tdd74">
+               <service id="lu9tdd74">
                   <title>Get Connection</title>
                   <serviceName>apTestRestV2:Get Connection</serviceName>
-                  <serviceGUID>4OnMYz8Zy57hSt2MY5vt2n</serviceGUID>
+                  <serviceGUID>dhsK1yLNUssl9vhei7vtYf</serviceGUID>
                   <serviceInput>
-                     <parameter name="icsSessionUrl" source="field">output.ICS Server URL</parameter>
-                     <parameter name="icSessionId" source="field">output.ICS Session ID</parameter>
-                     <parameter name="connectionId" source="constant">018Z0B0B00000000000N</parameter>
+                     <parameter name="icsSessionUrl" source="field" updatable="true">output.ICS Server URL</parameter>
+                     <parameter name="icSessionId" source="field" updatable="true">output.ICS Session ID</parameter>
+                     <parameter name="connectionId" source="constant">018Z0B0B00000000000N_1</parameter>
                   </serviceInput>
-                  <link id="v9eeec299-d801-4540-a749-4dc148e9dba9"
-                        targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7w"/>
+                  <link id="lu9tdd7x" targetId="lu9tdd7w"/>
                </service>
-               <assignment id="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7w">
+               <assignment id="lu9tdd7w">
                   <title>Assignment to username, name etc.</title>
                   <operation source="field" to="output.username">output.Connection[1]/Username</operation>
                   <operation source="field" to="output.name">output.Connection[1]/Name</operation>
@@ -95,28 +87,25 @@
 
 return $connection/UserName</expression>
                   </operation>
-                  <link id="md9a788ea-3fff-44b8-a759-8614e3250cdf"
-                        targetId="a1apac3vy31MRf0OLSpaDM2k-c"/>
+                  <link id="lu9tdd7y" targetId="c"/>
                </assignment>
-               <end id="a1apac3vy31MRf0OLSpaDM2k-c">
-                  <title>End</title>
-               </end>
+               <end id="c"/>
             </flow>
          </process>
          <ns1:sample-data-sets xmlns:ns1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/sampleData.xsd">
             <ns1:SampleData>
-               <ns1:Id>fad35eb9-0016-47c5-b5b3-ee7e0245e68e</ns1:Id>
+               <ns1:Id>a8e8929d-9d73-4962-9c7f-9c3348cdd14b</ns1:Id>
                <ns1:Name>test</ns1:Name>
-               <ns1:CreatedBy>vs_suborg2</ns1:CreatedBy>
-               <ns1:CreationDate>2025-06-05T14:14:07Z</ns1:CreationDate>
-               <ns1:ModifiedBy>vs_suborg2</ns1:ModifiedBy>
-               <ns1:ModificationDate>2025-06-05T14:14:07Z</ns1:ModificationDate>
+               <ns1:CreatedBy>vaishnavi_usw5_new_org</ns1:CreatedBy>
+               <ns1:CreationDate>2025-06-05T14:33:47Z</ns1:CreationDate>
+               <ns1:ModifiedBy>vaishnavi_usw5_new_org</ns1:ModifiedBy>
+               <ns1:ModificationDate>2025-06-05T14:33:47Z</ns1:ModificationDate>
                <ns1:Data format="json">{}</ns1:Data>
             </ns1:SampleData>
          </ns1:sample-data-sets>
       </types1:Entry>
-      <types1:GUID>apac3vy31MRf0OLSpaDM2k</types1:GUID>
+      <types1:GUID>iCUJS5acFK2kYXkT22mvmx</types1:GUID>
       <types1:DisplayName>pTestRestV2Connection</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2025-06-05T15:39:30.001Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2025-06-06T12:42:06.876Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
