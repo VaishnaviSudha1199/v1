@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "apac3vy31MRf0OLSpaDM2k",
+    "id" : "iCUJS5acFK2kYXkT22mvmx",
     "name" : "pTestRestV2Connection",
     "type" : "PROCESS",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "4Cf5GkeHy2uI5CU-gt-12245545-2025-06-05T14:14:07.089Z::pd.xml"
+        "repoHandle" : "abck0Kn7wporzYL-gt-12275829-2025-06-05T14:33:47.014Z::pd.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -22,7 +22,7 @@
   "dataFileExtension" : "xml",
   "updateTime" : "2025-06-06T12:39:44.871Z",
   "objectRefs" : [ {
-    "id" : "4OnMYz8Zy57hSt2MY5vt2n",
+    "id" : "dhsK1yLNUssl9vhei7vtYf",
     "name" : "apTestRestV2",
     "type" : "AI_CONNECTION",
     "metadata" : {
@@ -31,7 +31,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "KXycotFgpKi9zhF-gt-12245532-2025-06-05T14:14:06.958Z::conn.xml"
+        "repoHandle" : "3PUjJBUhtycotFg-gt-12275815-2025-06-05T14:33:46.881Z::conn.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
