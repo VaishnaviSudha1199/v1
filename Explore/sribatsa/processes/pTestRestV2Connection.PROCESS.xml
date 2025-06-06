@@ -10,13 +10,13 @@
       <types1:VersionLabel>1.0</types1:VersionLabel>
       <types1:State>CURRENT</types1:State>
       <types1:ProcessGroup/>
-      <types1:CreatedBy>vaishnavi_usw5_new_org</types1:CreatedBy>
-      <types1:CreationDate>2025-06-05T14:33:47Z</types1:CreationDate>
-      <types1:ModifiedBy>vaishnavi_usw5_new_org</types1:ModifiedBy>
-      <types1:ModificationDate>2025-06-06T12:41:36Z</types1:ModificationDate>
+      <types1:CreatedBy>vs_suborg2</types1:CreatedBy>
+      <types1:CreationDate>2025-06-05T14:14:07Z</types1:CreationDate>
+      <types1:ModifiedBy>vs_suborg2</types1:ModifiedBy>
+      <types1:ModificationDate>2025-06-06T12:38:55Z</types1:ModificationDate>
       <types1:PublicationStatus>published</types1:PublicationStatus>
-      <types1:PublishedBy>vaishnavi_usw5_new_org</types1:PublishedBy>
-      <types1:PublicationDate>2025-06-06T12:41:40Z</types1:PublicationDate>
+      <types1:PublishedBy>vs_suborg2</types1:PublishedBy>
+      <types1:PublicationDate>2025-06-06T12:39:00Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/spi.pTestRestV2Connection/pTestRestV2Connection.pd.xml</types1:PublishedContributionId>
       <types1:Entry>
          <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -56,27 +56,25 @@
                   <allowAnonymousAccess/>
                </rest>
             </deployment>
-            <flow id="a">
-               <start id="b">
-                  <link id="lu9tdd7h" targetId="lu9tdd7g"/>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyStringAsNull">true</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">true</nvpair>
+               <nvpair name="treatEmptyObjectListAsNotArray">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsNotArray">false</nvpair>
+               <nvpair name="treatEmptyStringAsNull">true</nvpair>
+            </extData>
+            <flow id="kb0be994e-1d34-4b18-87c6-dee654cbb73c">
+               <start id="m41b0e288-9623-4c01-9226-d52071679abb">
+                  <link id="i7af40489-83c0-45f5-8c81-c3aac51b69c5"
+                        targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7g"/>
                </start>
                <service id="lu9tdd7g">
                   <title>Login</title>
                   <serviceName>apTestRestV2:Login</serviceName>
-                  <serviceGUID>dhsK1yLNUssl9vhei7vtYf</serviceGUID>
-                  <serviceInput/>
-                  <link id="lu9tdd7i" targetId="lu9tdd74"/>
-               </service>
-               <service id="lu9tdd74">
-                  <title>Get Connection</title>
-                  <serviceName>apTestRestV2:Get Connection</serviceName>
-                  <serviceGUID>dhsK1yLNUssl9vhei7vtYf</serviceGUID>
-                  <serviceInput>
-                     <parameter name="icsSessionUrl" source="field" updatable="true">output.ICS Server URL</parameter>
-                     <parameter name="icSessionId" source="field" updatable="true">output.ICS Session ID</parameter>
-                     <parameter name="connectionId" source="constant">018Z0B0B00000000000N_1</parameter>
-                  </serviceInput>
-                  <link id="lu9tdd7x" targetId="lu9tdd7w"/>
+                  <serviceGUID>4OnMYz8Zy57hSt2MY5vt2n</serviceGUID>
+                  <link id="kb35804ed-c045-47f7-9427-2e59f741c7c1"
+                        targetId="a1apac3vy31MRf0OLSpaDM2k-lu9tdd7w"/>
                </service>
                <assignment id="lu9tdd7w">
                   <title>Assignment to username, name etc.</title>
@@ -87,7 +85,8 @@
 
 return $connection/UserName</expression>
                   </operation>
-                  <link id="lu9tdd7y" targetId="c"/>
+                  <link id="wb41f47aa-a31e-4ec7-9ad3-5c34b7af661f"
+                        targetId="a1apac3vy31MRf0OLSpaDM2k-c"/>
                </assignment>
                <end id="c"/>
             </flow>
@@ -107,5 +106,5 @@ return $connection/UserName</expression>
       <types1:GUID>iCUJS5acFK2kYXkT22mvmx</types1:GUID>
       <types1:DisplayName>pTestRestV2Connection</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2025-06-06T12:42:06.876Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2025-06-06T12:39:44.8Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
